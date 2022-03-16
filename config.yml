@@ -1,0 +1,27 @@
+logs:
+  path: /home/pi/zumi-datenmonitor/logs
+
+mongodb:
+  uri: mongodb://localhost:27017/
+
+frequencies:
+  system: 1
+  mpu: 0.5
+  infrared: 0.5
+  camera: 2
+
+durations:
+  system: 5
+  mpu: 5
+  infrared: 5
+  camera: 5
+
+number_of_recordings:
+  system: 10
+  mpu: 10
+  infrared: 10
+  camera: 5
+
+logging:
+  level: 10
+#10: debug, 20: Info
